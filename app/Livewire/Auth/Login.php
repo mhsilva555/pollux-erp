@@ -27,7 +27,7 @@ class Login extends Component
                 'password.required' => 'O campo senha é obrigatório.',
                 'store.required' => 'O campo loja é obrigatório.',
                 'station.required' => 'O campo estação é obrigatório.',
-                'station.min' => 'Deve ser maior ou igual a 1.'
+                'station.min' => 'Deve ser igual ou maior que 1.'
             ]
         );
 
