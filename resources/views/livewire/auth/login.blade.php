@@ -1,4 +1,4 @@
-<form wire:submit.prevent="login" method="POST" class="w-full max-w-sm form-login">
+<form wire:submit.prevent="login" method="POST" class="w-full max-w-xs form-login">
     <livewire:logo />
 
     <fieldset class="mb-3">
