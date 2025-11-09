@@ -3,7 +3,7 @@
         <div class="bg-[var(--pollux-red)] min-h-screen hidden lg:block">
             <img class="h-full object-cover object-center opacity-50" src="{{ asset('images/enterprise.webp') }}" alt="">
         </div>
-        <div class="px-10 lg:p-20 bg-white min-h-screen flex items-center justify-center">
+        <div class="p-10 bg-white min-h-screen flex items-center justify-center">
             <livewire:auth.login />
         </div>
     </div>
