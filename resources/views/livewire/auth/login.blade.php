@@ -44,6 +44,7 @@
                 autocomplete="off"
             />
             @error('station') <p class="text-red-500 text-xs my-1">{{ $message }}</p> @enderror
+            @error('station-min') <p class="text-red-500 text-xs my-1">{{ $message }}</p> @enderror
         </fieldset>
     </div>
 

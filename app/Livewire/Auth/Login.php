@@ -10,7 +10,7 @@ class Login extends Component
     public $username = '';
     public $password = '';
     public $store = null;
-    public $station = null;
+    public $station = 1;
     public $remember = false;
 
     public function login()
@@ -19,14 +19,15 @@ class Login extends Component
             [
                 'username' => 'required|string',
                 'password' => 'required|string',
-                'store' => 'required|string',
-                'station' => 'required|string',
+                'store' => 'required|integer',
+                'station' => 'required|integer|min:1',
             ],
             [
                 'username.required' => 'O campo usuário é obrigatório.',
                 'password.required' => 'O campo senha é obrigatório.',
                 'store.required' => 'O campo loja é obrigatório.',
                 'station.required' => 'O campo estação é obrigatório.',
+                'station.min' => 'A estação deve ser maior ou igual a 1.'
             ]
         );
 
